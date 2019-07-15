@@ -31,7 +31,7 @@ export default function ajax(url, data = {}, method = "GET") {
   return new Promise((resolve, reject) => {
     let promise;
 
-    if (method == "GET") {
+    if (method === "GET") {
       options.params = data
       promise = instance.get(url, options);
     } else {

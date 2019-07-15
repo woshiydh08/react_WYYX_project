@@ -1,0 +1,159 @@
+@import "../../common/stylus/mixins.styl"
+.cateBody
+  width 100%
+  height: 100%
+  position relative
+  header
+    position: fixed
+    left: 0
+    top: 0
+    z-index: 5
+    width: 100%
+    border-bottom 1px #f3f3f3 solid
+    .header-item
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center;
+      height: 1.17333rem;
+      padding: 0 .4rem;
+      background-color: #fff;
+      position: relative;
+      .search
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        height: .74667rem;
+        font-size: .37333rem;
+        background-color: #ededed;
+        border-radius: .10667rem;
+        flex-grow 1
+        .icon
+          display: inline-block;
+          vertical-align: middle;
+          background-image: url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-2fb94833aa.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          width: .37333rem;
+          height: .37333rem;
+          margin-right: .13333rem;
+        .placeholder
+          color: #666;
+  .cateNav
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 4;
+    width: 2.16rem;
+    padding-bottom 1.30667rem
+    background-color: #fff;
+    border-right 1px solid #d9d9d9
+    .cateNavVert
+      padding: 1.17333rem 0
+      padding-bottom: 1.84rem;
+      .item
+        display: block;
+        color: #333;
+        font-size: .37333rem;
+        line-height: .66667rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: .53333rem;
+        text-align: center;
+        div
+          font-size: .37333rem;
+          color #000
+          line-height: .66667rem;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          width 100%
+          display inline-block
+          &.accurate
+            border-left 0.08rem solid red
+  .cateList
+    margin-top 1.17333rem
+    margin-left: 2.16rem;
+    padding: .4rem .4rem .28rem;
+    background-color #fff
+    .banner
+      position: relative;
+      width: 100%;
+      height: 2.56rem;
+      display: table;
+      margin-bottom: .42667rem;
+      background: center no-repeat #f4f4f4;
+      background-size: cover;
+      border-radius: 4px;
+      background-image:url(http://yanxuan.nosdn.127.net/52855d9a0c1f738f26ac125913af0012.jpg?imageView&thumbnail=0x196&quality=75);
+      .cnt
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-size: .37333rem;
+        color: #fff;
+    .cateListInner
+      margin-bottom: 0;
+      .listType1
+        width 100%
+        display flex
+        flex-wrap wrap
+        .itemType1
+          display: block;
+          margin-right: .40333rem;
+          font-size: 0;
+          width: 1.92rem;
+          vertical-align: top;
+          .cateImgWrapper
+            width: 1.92rem;
+            height: 1.92rem;
+            background: url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/water-d839a69b0d.png) center no-repeat;
+            img
+              display: block;
+              width: 100%;
+              background: #fff;
+              height: 100%;
+          .name
+            height: .96rem;
+            font-size: .32rem;
+            text-align: center;
+            line-height: .48rem;
+            display: block;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+      .listType0
+        margin-bottom: .16rem;
+        .title
+          white-space: nowrap;
+          max-width: 7.04rem;
+          padding-bottom: .10667rem;
+          margin-bottom: .32rem;
+          text-align: left;
+          font-size: .37333rem;
+          font-weight: 700;
+          border-bottom: 1px solid #d9d9d9;
+        ul
+          .itemType0
+            display: inline-block;
+            margin-right: .29333rem;
+            font-size: 0;
+            width: 1.92rem;
+            vertical-align: top;
+            img
+              width: 1.92rem;
+              height: 1.92rem;
+            .txt
+              height: .96rem;
+              font-size: .32rem;
+              text-align: center;
+              line-height: .48rem;
+              display: block;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;

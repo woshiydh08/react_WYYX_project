@@ -549,7 +549,7 @@ module.exports = {
         ],
         watch: paths.appSrc,
         silent: true,
-        formatter: typescriptFormatter,
+        formatter: typescriptFormatter,0
       }),
   ].filter(Boolean),
   // Some libraries import Node modules but don't use them in the browser.
